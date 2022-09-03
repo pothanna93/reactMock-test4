@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+}
+.user-character-info-div {
+  flex-grow: 1;
+  background-color: #ffc533;
+}
+.user-enter-div {
+  background-color: #0f172a;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #1e293b;
+  font-size: 28px;
+  font-family: 'roboto';
+  font-weight: 500;
+  padding-left: 40px;
+}
+.char-heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+.boss-heading-div {
+  background-size: cover;
+  display: flex;
+  background-color: #ffbf1f;
+}
+.user-words-info-div {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+}
+.input-element {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.input-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.input-container {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.add-btn {
+  width: 100px;
+  padding: 8px;
+  margin: 6px;
+  height: 40px;
+  color: #0f172a;
+  background-color: #ffbf1f;
+  border: none;
+  border-radius: 6px;
+}
+.ul-lists {
+  list-style-type: none;
+}
+.list-item {
+  display: flex;
+}
+.para-word {
+  font-size: 18px;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.no-user-img {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  align-self: center;
+  margin-top: 30px;
+}
+.form-div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
